@@ -1,0 +1,49 @@
+Output for the OutDoor usage of furniture
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=50277:C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin -Dfile.encoding=UTF-8 -classpath C:\Users\HP\Desktop\niit\course3\Sprint2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart FurnitureItemImpl
+Enter the furniture code
+502
+Enter the furniture type
+Table
+Enter Grade of Furniture
+B
+Enter the color
+Red
+Usage of furniture
+OutDoor
+Enter price of furniture
+1540
+Furniture code     = 502
+Furniture type     = Table
+Grade of furniture = B
+Color              = Red
+Usage of furniture = OutDoor
+Price of furniture = Rs 1540.0
+Price of furniture after discount of 5 % = 1463.0
+
+Process finished with exit code 0
+
+==============================================================================================
+
+Output for the InDoor usage of furniture
+
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=50372:C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin -Dfile.encoding=UTF-8 -classpath C:\Users\HP\Desktop\niit\course3\Sprint2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart FurnitureItemImpl
+Enter the furniture code
+402
+Enter the furniture type
+Chair
+Enter Grade of Furniture
+A
+Enter the color
+Blue
+Usage of furniture
+Indoor
+Enter price of furniture
+780
+Furniture code     = 402
+Furniture type     = Chair
+Grade of furniture = A
+Color              = Blue
+Usage of furniture = Indoor
+Price of furniture = Rs 780.0
+
+Process finished with exit code 0
