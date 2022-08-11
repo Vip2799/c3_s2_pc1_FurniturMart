@@ -19,7 +19,7 @@ public class FurnitureItem {
 
     public double discountedPrice(){
         if(furnitureUsage.equals("OutDoor")) {
-            price = price * 1.05;
+            price = price * 0.95;
         }
         return price ;
     }
@@ -30,7 +30,7 @@ public class FurnitureItem {
         System.out.println("Grade of furniture = "+ gradeOfFurniture);
         System.out.println("Color              = "+ color);
         System.out.println("Usage of furniture = "+ furnitureUsage);
-        System.out.println("Price of furniture = "+ price);
+        System.out.println("Price of furniture = Rs "+ price);
 
     }
 
