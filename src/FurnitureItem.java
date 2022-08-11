@@ -24,7 +24,7 @@ public class FurnitureItem {
     }
 
     public void discountedPrice(){
-        if(furnitureUsage.equals("OutDoor")) {
+        if (furnitureUsage.equalsIgnoreCase("OutDoor")) {
             priceAfterDiscount = price * 0.95;
         }
     }
@@ -36,7 +36,7 @@ public class FurnitureItem {
         System.out.println("Color              = " + color);
         System.out.println("Usage of furniture = " + furnitureUsage);
         System.out.println("Price of furniture = Rs " + price);
-        if (furnitureUsage.equals("OutDoor")) {
+        if (furnitureUsage.equalsIgnoreCase("OutDoor")) {
             System.out.println("Price of furniture after discount of 5 % = " + priceAfterDiscount);
         }
 
