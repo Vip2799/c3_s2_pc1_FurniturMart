@@ -7,6 +7,17 @@ public class FurnitureItem {
     String furnitureUsage;
     double price;
 
+    FurnitureItem(){
+        furnitureCode = 401;
+        furnitureType = "Chair";
+        gradeOfFurniture = 'B';
+        color = "Blue";
+        furnitureUsage = "OutDoor";
+        price = 780 ;
+
+    }
+
+
 
 
 }
