@@ -17,11 +17,11 @@ public class FurnitureItem {
 
     }
 
-    public double discountedPrice(){
+    public void discountedPrice(){
         if(furnitureUsage.equals("OutDoor")) {
             price = price * 0.95;
         }
-        return price ;
+
     }
 
     public void display(){
